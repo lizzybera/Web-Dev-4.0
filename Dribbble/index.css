@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+header {
+    /* background-color: burlywood; */
+    width: 100%;
+    height: 70px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo-Nav {
+    display: flex;
+    justify-content: space-between;
+    width: 42%;
+    /* background-color: antiquewhite; */
+}
+
+.navs{
+    display: flex;
+    width: 80%;
+    font-weight: 600;
+    /* background-color: yellow; */
+    justify-content: space-between;
+
+}
+
+.button{
+    display: flex;
+    align-items: center;
+}
+
+.sign-up{
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+#log-in {
+    padding: 15px 23px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    /* position: fixed; */
+}
+
+#log-in:hover {
+    cursor: pointer;
+    background-color: rgb(97, 96, 96);
+    transition: all ease-in-out 350ms;
+    
+}
+
+.hero {
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.Hero-main{
+    width: 90%;
+    /* background-color: aliceblue; */
+    /* margin: 10px 0; */
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.left {
+    width: 50%;
+    /* background-color: brown; */
+}
+
+.right {
+    width: 50%;
+/* background-color: yellow; */
+display: flex;
+justify-content: flex-end;
+position: relative;
+}
+
+.lady {
+width : 90%;
+height: 550px;
+display : flex;
+justify-content: flex-end;
+}
+
+.target {
+    width : 150px;
+    height: 60px;
+    position: absolute;
+    top : 100px;
+    left : 30px
+}
+
+.invest {
+    width : 150px;
+    height: 60px;
+    position: absolute;
+    bottom : 100px;
+    right : -40px;
+}
+
+h5 {
+    display: none;
+}
+
+@media (max-width : 992px) {
+    /* header {
+        background: red;
+    } */
+
+    .navs {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    h5 {
+        display: block;
+    }
+
+    .Hero-main {
+        /* display : block */
+        flex-direction: column;
+    }
+
+    .left{
+        width : 100%;
+        display : flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center; 
+    }
+
+    .right {
+        width : 100%;
+        justify-content : center
+    }
+
+    .lady{
+        width : 50%;
+        display : flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width : 200px) {
+    
+}
+
+/* @media (min-width : 992px) { */
+    /* header {
+        background: blue;
+    } */
+
+    /* h5 {
+        display: none;
+    } */
+/* } */
