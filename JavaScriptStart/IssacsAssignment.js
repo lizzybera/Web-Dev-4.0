@@ -34,7 +34,7 @@ const tipCalc = () => {
     }
 
 }
-tipCalc()
+// tipCalc()
 
 const randQuotes = () => {
     let quotes = [
@@ -47,4 +47,10 @@ const randQuotes = () => {
     let el = Math.floor(Math.random() * quotes.length)
     return quotes[el]
 }
-console.log(randQuotes());
+// console.log(randQuotes());
+const delay4rmSever = 3000
+setInterval(()=>{
+    console.log(" ");
+    
+    console.log(randQuotes());
+}, delay4rmSever)
